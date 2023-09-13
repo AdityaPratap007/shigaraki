@@ -94,6 +94,12 @@ nav .nav-content .features a:hover{
     padding: 1rem;
     
 }
+.large-100{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
 
 .row-0, .row-3, .row-6{
     display: flex;
@@ -102,9 +108,6 @@ nav .nav-content .features a:hover{
     height: 2.5vh;
     border-bottom: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
-}
-.narangi{
-    color: orangered;
 }
 .pointer-grid{
     padding: 1.5rem 0;
@@ -124,7 +127,6 @@ nav .nav-content .features a:hover{
     font-size: 0.7rem;
     transform: translateY(0);
 }
-
 .small-row, .small-row1{
     width: 70%;
     height: 100%; 
@@ -149,7 +151,7 @@ nav .nav-content .features a:hover{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 60vh;
+    height: 40vh;
     border-bottom: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
 }
@@ -157,7 +159,7 @@ nav .nav-content .features a:hover{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 10vh;
+    height: 20vh;
     border-bottom: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
 }
@@ -195,7 +197,7 @@ nav .nav-content .features a:hover{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 10vh;
+    height: 20vh;
     border-bottom: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
 }
@@ -248,16 +250,6 @@ nav .nav-content .features a:hover{
     font-size: 40px;
     padding-top: 50px;
 }
-.large-001{
-    display: flex;
-    justify-content: center;
-    color: orangered;
-}
-.large-301{
-    display: flex;
-    justify-content: center;
-    color: orangered;
-}
 .dot{
     width: 0.5em;
     height: 0.5em;
@@ -294,9 +286,6 @@ a {
     color:orangered;
     animation: move-rtl 6000ms linear infinite;
 }
-#rdi{
-    color: black;
-}
 .ww3{
     display: flex;
     justify-content: flex-start;
@@ -315,6 +304,9 @@ a {
     color:orangered;
     animation: move-rtl 14000ms linear infinite;
 }
+#rdi{
+    color: black;
+}
 @keyframes move-rtl {
     0%{
         transform: translate(0);
@@ -325,10 +317,20 @@ a {
     }
     
 }
+.seeteam{
+    display: flex;
+    font-size: 0.6 rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
 .create{
-    display: block;
-    font-size: 1rem;
-    justify-content: center;
+    display: flex;
+    font-size: 0.6 rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* align-items: center; */
+
 }
 .create-button{
     padding-top: 7px;
@@ -336,21 +338,16 @@ a {
     color: white;
     border-radius:5px ;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     background-color: orangered;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: large;
-
-}
-.space{
-    height:15px;
 }
 .cre{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    padding: 10px;;
+    margin-bottom: 10px;
 }
 .team{
     padding-left: 5px;
@@ -414,9 +411,10 @@ a {
     display: grid;
     /* gap: 0.4rem; */
     font-weight: 100;
-    font-family: text-fonts;
 }
-
+.space{
+    height:15px;
+}
 .large-700 .btns1 div {
     cursor: pointer;
 }
@@ -439,13 +437,16 @@ a {
     display: grid;
     /* gap: 0.4rem; */
     font-weight: 100;
-    font-family: text-fonts;
+    font-size: text-fonts;
 }
-
-
-.btns11{
-    color: black;
-    font-size: 15px;
+.hum
+{
+display: flex;
+justify-content:center ;
+}
+.fa-envelope{
+    font-size: 50px;
+    color:orangered;
 }
 .large-401 .preview {
     display: flex;
@@ -463,22 +464,6 @@ a {
     width: 100%;
     /* background-color: white; */
 }
-.large-101 .preview1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    /* background-color: white; */
-}
-.preview1 iframe {
-    width: 50%;
-    height: 90%;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: -5px 5px 10px black;
-    overflow: hidden;
-}
 .preview iframe {
     width: 50%;
     height: 90%;
@@ -486,10 +471,4 @@ a {
     border-radius: 5px;
     box-shadow: -5px 5px 10px black;
     overflow: hidden;
-}
-.large-100{
-    font-family: text-fonts;
-}
-.large-100{
-    list-style: none;
 }
